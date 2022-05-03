@@ -11,9 +11,18 @@ when I do a GET request to the / endpoint<br>
 I will see the string message as a response<br>
 which says Welcome to the Drinks API!
 
+### Coffee API Endpoint
+
+#### Scenario 1:
+As a user<br>
+when I do a GET request to the /coffeelover endpoint<br>
+I will see the string message as a<br>
+response which says I like coffee!
+
 ## Test Driven Approach
 
 1) Add test for Home API endpoint, Scenario 1. See test [here](https://htmlview.glitch.me/?https://github.com/abcpaem/drinks-web-api/blob/main/docs/TestResults01.html).
+2) Add test for Coffee API endpoint, Scenario 1. See test [here](https://htmlview.glitch.me/?https://github.com/abcpaem/drinks-web-api/blob/main/docs/TestResults02.html).
 
 ---
 ### How to run the web application
