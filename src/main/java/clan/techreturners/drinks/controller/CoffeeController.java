@@ -2,6 +2,7 @@ package clan.techreturners.drinks.controller;
 
 import clan.techreturners.drinks.model.Coffee;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -16,7 +17,7 @@ public class CoffeeController {
     }
 
     @GetMapping(value = "/coffee")
-    public Coffee coffee() {
-        return new Coffee(id.incrementAndGet(), "latte");
+    public Coffee coffee(@RequestParam(value = "name", defaultValue = "latte") String name) {
+        return new Coffee(id.incrementAndGet(), name);
     }
 }

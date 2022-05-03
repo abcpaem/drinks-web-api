@@ -39,6 +39,7 @@ this was provided on the GET request, the JSON response should have cappuccino.
 1) Add test for Home API endpoint, Scenario 1. See test [here](https://htmlview.glitch.me/?https://github.com/abcpaem/drinks-web-api/blob/main/docs/TestResults01.html).
 2) Add test for Coffee API endpoint, Scenario 1. See test [here](https://htmlview.glitch.me/?https://github.com/abcpaem/drinks-web-api/blob/main/docs/TestResults02.html).
 3) Add test for Coffee API endpoint, Scenario 2 with default value. See test [here](https://htmlview.glitch.me/?https://github.com/abcpaem/drinks-web-api/blob/main/docs/TestResults03.html).
+4) Add test for Coffee API endpoint, Scenario 2 with query param value. See test [here](https://htmlview.glitch.me/?https://github.com/abcpaem/drinks-web-api/blob/main/docs/TestResults04.html).
 
 ---
 ### How to run the web application
