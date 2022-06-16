@@ -52,6 +52,20 @@ Finally, you can see all the tests passing [here](https://htmlview.glitch.me/?ht
 To run tests use:
 - ``mvn test``
 
+### Run as a Docker container
+
+* cd to the project root folder in the command line
+* `docker build -t drinks-web-api .`
+* `docker run -p 8080:8080 drinks-web-api`
+* now you can go to: http://localhost:8080/
+
+To stop container:
+
+* press CTRL + C or
+* kill it from another command line by using:
+    * `docker ps` (to get the id of the running container)
+    * `docker stop <container id>`
+
 ## Technology
 This project was built using:
 - Spring Boot 2.6.7
